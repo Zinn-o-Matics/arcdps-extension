@@ -34,7 +34,7 @@
       ]
     },
     "unofficial-extras": {
-      "description": "make tools available, that depend on arcdps-unofficial-extras",
+      "description": "make tools available, that depend on arcdps-unofficial-extras. test",
       "dependencies": [
         "arcdps-unofficial-extras"
       ]
