@@ -1,5 +1,13 @@
 var namespaceArcdpsExtension =
 [
+    [ "details", "namespaceArcdpsExtension_1_1details.html", "namespaceArcdpsExtension_1_1details" ],
+    [ "Lang", "namespaceArcdpsExtension_1_1Lang.html", [
+      [ "Chinese", "namespaceArcdpsExtension_1_1Lang.html#a0dd796b941ef9b8f62ba697ebfb50a96", null ],
+      [ "English", "namespaceArcdpsExtension_1_1Lang.html#a008a454e2898d35c290df6510123ec4f", null ],
+      [ "French", "namespaceArcdpsExtension_1_1Lang.html#acbec0e85a62c97d63e24f3bab2542a52", null ],
+      [ "German", "namespaceArcdpsExtension_1_1Lang.html#a28a26a31cc8208908037a4913455535e", null ],
+      [ "Spanish", "namespaceArcdpsExtension_1_1Lang.html#ac1dc745d668a9ae4e6784287a5e2c7bd", null ]
+    ] ],
     [ "BaseSingleton", "classArcdpsExtension_1_1BaseSingleton.html", "classArcdpsExtension_1_1BaseSingleton" ],
     [ "CombatEventHandler", "classArcdpsExtension_1_1CombatEventHandler.html", "classArcdpsExtension_1_1CombatEventHandler" ],
     [ "ComponentBase", "classArcdpsExtension_1_1ComponentBase.html", "classArcdpsExtension_1_1ComponentBase" ],
@@ -84,14 +92,6 @@ var namespaceArcdpsExtension =
       [ "ET_SettingsShowHeaderText", "namespaceArcdpsExtension.html#a6998431fecc1df50998647659d658933abff98a7cea2b7433f9b113ff15742044", null ],
       [ "ET_LanguageName", "namespaceArcdpsExtension.html#a6998431fecc1df50998647659d658933a1c45d4022e112516c3705241fefd757a", null ],
       [ "ET_LikeInGame", "namespaceArcdpsExtension.html#a6998431fecc1df50998647659d658933a7bb19fdc9517bc9de4c234c1ecbca131", null ]
-    ] ],
-    [ "LanguageSetting", "namespaceArcdpsExtension.html#a01498d49a450d475d3e3cf8dc7604fda", [
-      [ "English", "namespaceArcdpsExtension.html#a01498d49a450d475d3e3cf8dc7604fdaa78463a384a5aa4fad5fa73e2f506ecfc", null ],
-      [ "LikeGame", "namespaceArcdpsExtension.html#a01498d49a450d475d3e3cf8dc7604fdaa23df3c214013dd0b00cd4e15a5f3132c", null ],
-      [ "French", "namespaceArcdpsExtension.html#a01498d49a450d475d3e3cf8dc7604fdaaad225f707802ba118c22987186dd38e8", null ],
-      [ "German", "namespaceArcdpsExtension.html#a01498d49a450d475d3e3cf8dc7604fdaa86bc3115eb4e9873ac96904a4a68e19e", null ],
-      [ "Spanish", "namespaceArcdpsExtension.html#a01498d49a450d475d3e3cf8dc7604fdaacb5480c32e71778852b08ae1e8712775", null ],
-      [ "Chinese", "namespaceArcdpsExtension.html#a01498d49a450d475d3e3cf8dc7604fdaa3b261136e3c33f35e0a58611b1f344cb", null ]
     ] ],
     [ "MainTableFlags_", "namespaceArcdpsExtension.html#a65eef77cfe403da1e2d2207dab27c92c", [
       [ "MainTableFlags_None", "namespaceArcdpsExtension.html#a65eef77cfe403da1e2d2207dab27c92ca27b89a1af241baa909c296de8be20958", null ],

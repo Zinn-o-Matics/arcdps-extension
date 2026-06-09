@@ -12,5 +12,6 @@ var searchData=
   ['freezecolumnsrequest_9',['FreezeColumnsRequest',['../structArcdpsExtension_1_1MainTable_1_1Table.html#ac81782b8cca1a5b43b45ba35f0a9a59f',1,'ArcdpsExtension::MainTable::Table']]],
   ['freezerowscount_10',['FreezeRowsCount',['../structArcdpsExtension_1_1MainTable_1_1Table.html#ac4cef2dc40b196738d2ee102ed8302ed',1,'ArcdpsExtension::MainTable::Table']]],
   ['freezerowsrequest_11',['FreezeRowsRequest',['../structArcdpsExtension_1_1MainTable_1_1Table.html#a0bd59084781784db7f67613330687e3e',1,'ArcdpsExtension::MainTable::Table']]],
-  ['fun_12',['Fun',['../structArcdpsExtension_1_1KeyBindHandler_1_1Subscriber.html#a12176ee17261817798936a765aabe4cf',1,'ArcdpsExtension::KeyBindHandler::Subscriber']]]
+  ['french_12',['French',['../namespaceArcdpsExtension_1_1Lang.html#acbec0e85a62c97d63e24f3bab2542a52',1,'ArcdpsExtension::Lang']]],
+  ['fun_13',['Fun',['../structArcdpsExtension_1_1KeyBindHandler_1_1Subscriber.html#a12176ee17261817798936a765aabe4cf',1,'ArcdpsExtension::KeyBindHandler::Subscriber']]]
 ];

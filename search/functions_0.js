@@ -1,7 +1,7 @@
 var searchData=
 [
   ['activation_0',['Activation',['../classArcdpsExtension_1_1CombatEventHandler.html#a9ce59c8d67bb1f641676075669add89e',1,'ArcdpsExtension::CombatEventHandler']]],
-  ['addtranslation_1',['addtranslation',['../classArcdpsExtension_1_1Localization.html#ab9aaaa4b9794cb967d4abe7c8102e885',1,'ArcdpsExtension::Localization::AddTranslation(gwlanguage pLang, const char8_t *pText)'],['../classArcdpsExtension_1_1Localization.html#a999f2156d3a088891a92dfef7dcdaa90',1,'ArcdpsExtension::Localization::AddTranslation(gwlanguage pLang, Args &amp;&amp;... args)']]],
+  ['addtranslation_1',['addtranslation',['../classArcdpsExtension_1_1Localization.html#a007cc1d79a5661bb53cba36df954130f',1,'ArcdpsExtension::Localization::AddTranslation(const std::string &amp;pLanguage, size_t pTranslation, Args &amp;&amp;... args)'],['../classArcdpsExtension_1_1Localization.html#a0428ae79af2b836b14c80b615ffe576c',1,'ArcdpsExtension::Localization::AddTranslation(const std::string &amp;pLanguage, E pTranslation, Args &amp;&amp;... args)'],['../classArcdpsExtension_1_1Localization.html#ac90c7b063e446bc988915e2992ec0459',1,'ArcdpsExtension::Localization::AddTranslation(const std::string &amp;pLanguage, Num pTranslation, Args &amp;&amp;... args)']]],
   ['agentadded_2',['AgentAdded',['../classArcdpsExtension_1_1CombatEventHandler.html#a93f4f0dd6dcb0b4ff9a3e4522d26129c',1,'ArcdpsExtension::CombatEventHandler']]],
   ['agentremoved_3',['AgentRemoved',['../classArcdpsExtension_1_1CombatEventHandler.html#a4e4115c5a593b7f8c6833ebf6c92e918',1,'ArcdpsExtension::CombatEventHandler']]],
   ['alignedprogressbar_4',['AlignedProgressBar',['../namespaceImGuiEx.html#a816f20a444a938fd39c670f67d3300f2',1,'ImGuiEx']]],

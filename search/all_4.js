@@ -35,7 +35,7 @@ var searchData=
   ['engineer_5fmechanist_32',['Engineer_Mechanist',['../arcdps__structs__slim_8h.html#a13f5d9da9efbe94da36a80222ab03093aad8922ba46f6b15ac2b5c791d8e7c123',1,'arcdps_structs_slim.h']]],
   ['engineer_5fscrapper_33',['Engineer_Scrapper',['../arcdps__structs__slim_8h.html#a13f5d9da9efbe94da36a80222ab03093a3609209fb77b13f914e4a7c693064a38',1,'arcdps_structs_slim.h']]],
   ['engineer_5ftools_34',['Engineer_Tools',['../arcdps__structs__slim_8h.html#a13f5d9da9efbe94da36a80222ab03093a03b319263a5bd806ea76ef617ec5fcbf',1,'arcdps_structs_slim.h']]],
-  ['english_35',['English',['../namespaceArcdpsExtension.html#a01498d49a450d475d3e3cf8dc7604fdaa78463a384a5aa4fad5fa73e2f506ecfc',1,'ArcdpsExtension']]],
+  ['english_35',['English',['../namespaceArcdpsExtension_1_1Lang.html#a008a454e2898d35c290df6510123ec4f',1,'ArcdpsExtension::Lang']]],
   ['engul_36',['Engul',['../MobIDs_8h.html#aea3234b9e6ff7f848ac3d3f5fb432f63ac358a90067e8ad8d1de82c67c7cb3f03',1,'MobIDs.h']]],
   ['enragedspirit_37',['EnragedSpirit',['../MobIDs_8h.html#aea3234b9e6ff7f848ac3d3f5fb432f63af49af9f1591cdded66f3b71096a5bc08',1,'MobIDs.h']]],
   ['enragewatersprite_38',['EnrageWaterSprite',['../MobIDs_8h.html#aea3234b9e6ff7f848ac3d3f5fb432f63a5578fcbf71fb816a65df74a1b1ee73b5',1,'MobIDs.h']]],

@@ -94,18 +94,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "ArcdpsExtension_8cpp.html",
-"MobIDs_8h.html#aa4183a394aa4e7600297584922235450afcbab72c9778ae00ca2bea7571ac403e",
-"MobIDs_8h.html#aea3234b9e6ff7f848ac3d3f5fb432f63ae105e39f83ffa443a7bc4748d028ae83",
-"arcdps__structs__slim_8h.html#a02aa39376fa6aaf598a43887b429a8deaa07c15e8a518246370a81610b52c07a3",
-"arcdps__structs__slim_8h.html#aa9eaab87ee5fe0145dff56595c6e56f6ae2c4de471af1c72f724db266b1545530",
-"classArcdpsExtension_1_1DemoWindow.html#ae53effba264543781532d912dc204bfb",
-"classArcdpsExtension_1_1MainWindow.html#a343c41f626e133baf1e8a5dde1de61fe",
-"classArcdpsExtension_1_1SingletonManager.html",
-"map_8h.html#a2247726e3f5cf2db5a788f21b42e5508",
-"map_8h.html#ab74a09b4773b646e7eff95ef8569d5b2",
-"namespaceImGuiEx.html#aabac93463183f0de50deed46248591ad",
-"structArcdpsExtension_1_1MainTable_1_1Table.html#abc81d7d3913919285b74d8cb99d73b13",
-"structInputTextCallback__UserData.html#a67cca931f5a37b65a5088bce64290f80"
+"MobIDs_8h.html#aea3234b9e6ff7f848ac3d3f5fb432f63a041bd06571da72dee4f203f530eda6af",
+"MobIDs_8h.html#aea3234b9e6ff7f848ac3d3f5fb432f63ae33f1fb5463c103e0d78ee7a52d1f376",
+"arcdps__structs__slim_8h.html#a02aa39376fa6aaf598a43887b429a8dead60ebb7c05615f52d4bef2bbdfe3c002",
+"arcdps__structs__slim_8h.html#abfbc2af9adf51c9b732bec7826ecf5ba",
+"classArcdpsExtension_1_1DemoWindow.html#aee1303888b4a3bb11dfac015a120a1b1",
+"classArcdpsExtension_1_1MainWindow.html#a34fb5467a481899aa6463d70c5350485",
+"classArcdpsExtension_1_1SingletonManager.html#a08c044cd7c46097d4242de6c44ded73f",
+"map_8h.html#a2001b1cf3d795b42e165992b1ffb5b7d",
+"map_8h.html#ab5f809e87323e8e961a29c6070babfce",
+"namespaceImGuiEx.html#a7e24a4297ab6103471c1c5291833ee22",
+"structArcdpsExtension_1_1MainTable_1_1Table.html#ab3236e4a6f2c192f5d5e7c4a6a6f5709",
+"structIdentity.html#ac3d994a66ea6177e15dab5631e956cd9"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

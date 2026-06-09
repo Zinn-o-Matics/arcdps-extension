@@ -31,7 +31,7 @@ var searchData=
   ['freezerowsrequest_28',['FreezeRowsRequest',['../structArcdpsExtension_1_1MainTable_1_1Table.html#a0bd59084781784db7f67613330687e3e',1,'ArcdpsExtension::MainTable::Table']]],
   ['freezie_29',['Freezie',['../MobIDs_8h.html#aa4183a394aa4e7600297584922235450a4a505b64d8a0d24377ef3022be658f69',1,'MobIDs.h']]],
   ['freeziesfrozenheart_30',['FreeziesFrozenHeart',['../MobIDs_8h.html#aea3234b9e6ff7f848ac3d3f5fb432f63ad7eec97b913d8d9092e92e87b7061b0f',1,'MobIDs.h']]],
-  ['french_31',['French',['../namespaceArcdpsExtension.html#a01498d49a450d475d3e3cf8dc7604fdaaad225f707802ba118c22987186dd38e8',1,'ArcdpsExtension']]],
+  ['french_31',['French',['../namespaceArcdpsExtension_1_1Lang.html#acbec0e85a62c97d63e24f3bab2542a52',1,'ArcdpsExtension::Lang']]],
   ['from_5fjson_32',['from_json',['../structArcdpsExtension_1_1MainTable_1_1TableColumnSettings.html#aba54567a7ac59ac215aca79906df71cf',1,'ArcdpsExtension::MainTable::TableColumnSettings::from_json'],['../structnlohmann_1_1adl__serializer_3_01std_1_1optional_3_01T_01_4_01_4.html#a8a0f6db572a58d91dcef1ee25d51196d',1,'nlohmann::adl_serializer&lt; std::optional&lt; T &gt; &gt;::from_json()']]],
   ['frostlegioncrusher_33',['FrostLegionCrusher',['../MobIDs_8h.html#aea3234b9e6ff7f848ac3d3f5fb432f63aaa109ac21bcf24e426fc3a6f1af0cef1',1,'MobIDs.h']]],
   ['frostlegionmusketeer_34',['FrostLegionMusketeer',['../MobIDs_8h.html#aea3234b9e6ff7f848ac3d3f5fb432f63a6e37819e36beb085c164c828b4194df7',1,'MobIDs.h']]],

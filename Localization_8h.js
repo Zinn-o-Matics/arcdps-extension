@@ -1,13 +1,12 @@
 var Localization_8h =
 [
     [ "ArcdpsExtension::Localization", "classArcdpsExtension_1_1Localization.html", "classArcdpsExtension_1_1Localization" ],
-    [ "LanguageSetting", "Localization_8h.html#a01498d49a450d475d3e3cf8dc7604fda", [
-      [ "English", "Localization_8h.html#a01498d49a450d475d3e3cf8dc7604fdaa78463a384a5aa4fad5fa73e2f506ecfc", null ],
-      [ "LikeGame", "Localization_8h.html#a01498d49a450d475d3e3cf8dc7604fdaa23df3c214013dd0b00cd4e15a5f3132c", null ],
-      [ "French", "Localization_8h.html#a01498d49a450d475d3e3cf8dc7604fdaaad225f707802ba118c22987186dd38e8", null ],
-      [ "German", "Localization_8h.html#a01498d49a450d475d3e3cf8dc7604fdaa86bc3115eb4e9873ac96904a4a68e19e", null ],
-      [ "Spanish", "Localization_8h.html#a01498d49a450d475d3e3cf8dc7604fdaacb5480c32e71778852b08ae1e8712775", null ],
-      [ "Chinese", "Localization_8h.html#a01498d49a450d475d3e3cf8dc7604fdaa3b261136e3c33f35e0a58611b1f344cb", null ]
-    ] ],
-    [ "to_string", "Localization_8h.html#a8ebbd9373657e7f9aa4c24e30c40edff", null ]
+    [ "ArcdpsExtension::details::PairLike", "conceptArcdpsExtension_1_1details_1_1PairLike.html", null ],
+    [ "ArcdpsExtension::details::KeyValueRange", "conceptArcdpsExtension_1_1details_1_1KeyValueRange.html", null ],
+    [ "ArcdpsExtension::details::KeyValueRangeOf", "conceptArcdpsExtension_1_1details_1_1KeyValueRangeOf.html", null ],
+    [ "Chinese", "Localization_8h.html#a0dd796b941ef9b8f62ba697ebfb50a96", null ],
+    [ "English", "Localization_8h.html#a008a454e2898d35c290df6510123ec4f", null ],
+    [ "French", "Localization_8h.html#acbec0e85a62c97d63e24f3bab2542a52", null ],
+    [ "German", "Localization_8h.html#a28a26a31cc8208908037a4913455535e", null ],
+    [ "Spanish", "Localization_8h.html#ac1dc745d668a9ae4e6784287a5e2c7bd", null ]
 ];

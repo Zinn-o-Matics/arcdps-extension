@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['maintableflags_5f_0',['MainTableFlags_',['../namespaceArcdpsExtension.html#a65eef77cfe403da1e2d2207dab27c92c',1,'ArcdpsExtension']]],
-  ['mainwindowflags_5f_1',['MainWindowFlags_',['../namespaceArcdpsExtension.html#a7283c029cf330ab09361a3ccb4f5977f',1,'ArcdpsExtension']]],
-  ['mountindex_2',['MountIndex',['../MumbleLink_8h.html#ab1a463827405788af9d5ec6e99990fc8',1,'MumbleLink.h']]]
+  ['n_5fanimationstart_0',['n_animationstart',['../arcdps__structs__slim_8h.html#a3ca1ff6883a2a99b90fce5c1844660c6',1,'arcdps_structs_slim.h']]],
+  ['n_5fanimationstop_1',['n_animationstop',['../arcdps__structs__slim_8h.html#ac31029c808a131690643904ca60067f2',1,'arcdps_structs_slim.h']]],
+  ['n_5fcontentlocal_2',['n_contentlocal',['../arcdps__structs__slim_8h.html#ac0885f4f1b7436b3a9a4a77ed3eb3688',1,'arcdps_structs_slim.h']]]
 ];

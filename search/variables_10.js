@@ -20,11 +20,12 @@ var searchData=
   ['sortspecsmulti_17',['SortSpecsMulti',['../structArcdpsExtension_1_1MainTable_1_1Table.html#a42bf2bbe989b7f42ca68094816603aa7',1,'ArcdpsExtension::MainTable::Table']]],
   ['sortspecssingle_18',['SortSpecsSingle',['../structArcdpsExtension_1_1MainTable_1_1Table.html#a3fa455803d9df41273f5e8ebdf9d60bf',1,'ArcdpsExtension::MainTable::Table']]],
   ['source_19',['Source',['../structArcdpsExtension_1_1EventSequencer_1_1Event.html#a91da4cc0a4c620dd88eb0db4418a2b9a',1,'ArcdpsExtension::EventSequencer::Event']]],
-  ['spec_20',['spec',['../structIdentity.html#a2bdaa4757a2e6c1d7cd6eab5b6d059aa',1,'Identity']]],
-  ['src_5fagent_21',['src_agent',['../structcbtevent.html#a130fb2a45383e7f42a385827284f6f63',1,'cbtevent']]],
-  ['src_5finstid_22',['src_instid',['../structcbtevent.html#a907e11a674a269d415c1eecf107cedec',1,'cbtevent']]],
-  ['src_5fmaster_5finstid_23',['src_master_instid',['../structcbtevent.html#addc74ccf00a31cb991d6e28da3497af1',1,'cbtevent']]],
-  ['state_24',['state',['../UpdateCheckerTest_8cpp.html#abdebc933e68845b36fb607e9cce6921d',1,'UpdateCheckerTest.cpp']]],
-  ['str_25',['Str',['../structInputTextCallback__UserData.html#af4af934be464cc04c79ee922e697e2d8',1,'InputTextCallback_UserData']]],
-  ['stretchweight_26',['StretchWeight',['../structArcdpsExtension_1_1MainTable_1_1TableColumn.html#acda9286c29a0ee38aa01e379f5df2b44',1,'ArcdpsExtension::MainTable::TableColumn']]]
+  ['spanish_20',['Spanish',['../namespaceArcdpsExtension_1_1Lang.html#ac1dc745d668a9ae4e6784287a5e2c7bd',1,'ArcdpsExtension::Lang']]],
+  ['spec_21',['spec',['../structIdentity.html#a2bdaa4757a2e6c1d7cd6eab5b6d059aa',1,'Identity']]],
+  ['src_5fagent_22',['src_agent',['../structcbtevent.html#a130fb2a45383e7f42a385827284f6f63',1,'cbtevent']]],
+  ['src_5finstid_23',['src_instid',['../structcbtevent.html#a907e11a674a269d415c1eecf107cedec',1,'cbtevent']]],
+  ['src_5fmaster_5finstid_24',['src_master_instid',['../structcbtevent.html#addc74ccf00a31cb991d6e28da3497af1',1,'cbtevent']]],
+  ['state_25',['state',['../UpdateCheckerTest_8cpp.html#abdebc933e68845b36fb607e9cce6921d',1,'UpdateCheckerTest.cpp']]],
+  ['str_26',['Str',['../structInputTextCallback__UserData.html#af4af934be464cc04c79ee922e697e2d8',1,'InputTextCallback_UserData']]],
+  ['stretchweight_27',['StretchWeight',['../structArcdpsExtension_1_1MainTable_1_1TableColumn.html#acda9286c29a0ee38aa01e379f5df2b44',1,'ArcdpsExtension::MainTable::TableColumn']]]
 ];
