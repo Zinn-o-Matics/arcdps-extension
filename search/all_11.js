@@ -53,7 +53,7 @@ var searchData=
   ['resources_50',['Download Network resources',['../md_Readme.html#autotoc_md8',1,'']]],
   ['response_51',['Response',['../structArcdpsExtension_1_1SimpleNetworkStack_1_1Response.html',1,'ArcdpsExtension::SimpleNetworkStack']]],
   ['restartkeycodepopupstate_52',['RestartKeyCodePopupState',['../namespaceImGuiEx.html#a4d77cf39ecce54d4711ae1ae7672ec17',1,'ImGuiEx']]],
-  ['result_53',['result',['../structcbtevent.html#aa98232d7291b51c76ac902b14e53e2b8',1,'cbtevent::result'],['../classArcdpsExtension_1_1SimpleNetworkStack.html#ac6dac82c4c5a6d8e618188b3e6e20d61',1,'ArcdpsExtension::SimpleNetworkStack::Result']]],
+  ['result_53',['result',['../classArcdpsExtension_1_1SimpleNetworkStack.html#ac6dac82c4c5a6d8e618188b3e6e20d61',1,'ArcdpsExtension::SimpleNetworkStack::Result'],['../structcbtevent.html#aa98232d7291b51c76ac902b14e53e2b8',1,'cbtevent::result']]],
   ['resultfunc_54',['ResultFunc',['../classArcdpsExtension_1_1SimpleNetworkStack.html#a824f62794c41f7dc4d14d6673ebdb872',1,'ArcdpsExtension::SimpleNetworkStack']]],
   ['resultpromise_55',['ResultPromise',['../classArcdpsExtension_1_1SimpleNetworkStack.html#a65925e27f7f32253e56731621c2036e0',1,'ArcdpsExtension::SimpleNetworkStack']]],
   ['retrieverprojection_56',['RetrieverProjection',['../MobIDs_8h.html#aea3234b9e6ff7f848ac3d3f5fb432f63a78ae195e28a1a59297933759ad144361',1,'MobIDs.h']]],
