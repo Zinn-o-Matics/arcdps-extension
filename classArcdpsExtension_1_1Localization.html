@@ -155,14 +155,16 @@ requires std::is_integral_v&lt;Num&gt; &amp;&amp; (!std::same_as&lt;Num, size_t&
 <tr class="separator:a7f30b7bc9858e242dac33dfccab9e3df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf4d2be3d4ad64240bd3380830fb6f4b" id="r_acf4d2be3d4ad64240bd3380830fb6f4b"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcdpsExtension_1_1Localization.html#acf4d2be3d4ad64240bd3380830fb6f4b">Translate</a> (const std::string &amp;pLang) const</td></tr>
 <tr class="separator:acf4d2be3d4ad64240bd3380830fb6f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02b97720f0e40b83aad8cb0504bcedc6" id="r_a02b97720f0e40b83aad8cb0504bcedc6"><td class="memTemplParams" colspan="2">template&lt;typename R &gt; <br />
-requires details::KeyValueRangeOf&lt;R, size_t, std::string&gt;</td></tr>
-<tr class="memitem:a02b97720f0e40b83aad8cb0504bcedc6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArcdpsExtension_1_1Localization.html#a02b97720f0e40b83aad8cb0504bcedc6">Load</a> (const std::string &amp;pLang, const R &amp;pRange)</td></tr>
-<tr class="separator:a02b97720f0e40b83aad8cb0504bcedc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb2358128fd781cba1128014d9ee14af" id="r_acb2358128fd781cba1128014d9ee14af"><td class="memTemplParams" colspan="2">template&lt;typename R &gt; <br />
-requires details::KeyValueRangeOf&lt;R, size_t, const char8_t*&gt;</td></tr>
-<tr class="memitem:acb2358128fd781cba1128014d9ee14af"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArcdpsExtension_1_1Localization.html#acb2358128fd781cba1128014d9ee14af">Load</a> (const std::string &amp;pLang, const R &amp;pRange)</td></tr>
-<tr class="separator:acb2358128fd781cba1128014d9ee14af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad1c6a430539ba845d007d184f5a6cfa5" id="r_ad1c6a430539ba845d007d184f5a6cfa5"><td class="memTemplParams" colspan="2">template&lt;typename R &gt; <br />
+requires details::KeyValueRangeOf&lt;R, size_t, std::string_view&gt;</td></tr>
+<tr class="memitem:ad1c6a430539ba845d007d184f5a6cfa5"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArcdpsExtension_1_1Localization.html#ad1c6a430539ba845d007d184f5a6cfa5">Load</a> (const std::string &amp;pLang, const R &amp;pRange)</td></tr>
+<tr class="separator:ad1c6a430539ba845d007d184f5a6cfa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77a5724c44a20acbd9b7b3f08fd4d30e" id="r_a77a5724c44a20acbd9b7b3f08fd4d30e"><td class="memTemplParams" colspan="2">template&lt;typename R &gt; <br />
+requires details::KeyValueRangeOf&lt;R, size_t, std::u8string_view&gt;</td></tr>
+<tr class="memitem:a77a5724c44a20acbd9b7b3f08fd4d30e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classArcdpsExtension_1_1Localization.html#a77a5724c44a20acbd9b7b3f08fd4d30e">Load</a> (const std::string &amp;pLang, const R &amp;pRange)</td></tr>
+<tr class="separator:a77a5724c44a20acbd9b7b3f08fd4d30e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab82577d27c391482d83de3dca3a768a4" id="r_ab82577d27c391482d83de3dca3a768a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcdpsExtension_1_1Localization.html#ab82577d27c391482d83de3dca3a768a4">Load</a> (const std::string &amp;pLang)</td></tr>
+<tr class="separator:ab82577d27c391482d83de3dca3a768a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb2ae79c438ffdacbafa53ec780c87f6" id="r_acb2ae79c438ffdacbafa53ec780c87f6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcdpsExtension_1_1Localization.html#acb2ae79c438ffdacbafa53ec780c87f6">ChangeLanguage</a> (const std::string &amp;pLang)</td></tr>
 <tr class="separator:acb2ae79c438ffdacbafa53ec780c87f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a929a98a8e08c082a05b67e61bbe5c2e5" id="r_a929a98a8e08c082a05b67e61bbe5c2e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcdpsExtension_1_1Localization.html#a929a98a8e08c082a05b67e61bbe5c2e5">ChangeFallbackLanguage</a> (const std::string &amp;pLang)</td></tr>
@@ -220,7 +222,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>How to use:<br  />
- Call <code><a class="el" href="classArcdpsExtension_1_1Localization.html#a02b97720f0e40b83aad8cb0504bcedc6">Load()</a></code> with your translations you want to add. Call it within <code>mod_init</code> or as early as possible.</p>
+ Call <code><a class="el" href="classArcdpsExtension_1_1Localization.html#ad1c6a430539ba845d007d184f5a6cfa5">Load()</a></code> with your translations you want to add. Call it within <code>mod_init</code> or as early as possible.</p>
 <p><b>Make sure to properly setup and teardown the <a class="el" href="classArcdpsExtension_1_1Singleton.html">Singleton</a> class.</b></p>
 <p>Call <code>ChangeLanguage</code> when you want to change the language. Call it once to setup the language the user has in <code>mod_init</code></p>
 <p>Call <code>ChangeFallbackLanguage</code> when you want to change the fallback language. It defaults to English.</p>
@@ -443,14 +445,33 @@ template&lt;typename... Args&gt; </div>
 
 </div>
 </div>
-<a id="a02b97720f0e40b83aad8cb0504bcedc6" name="a02b97720f0e40b83aad8cb0504bcedc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02b97720f0e40b83aad8cb0504bcedc6">&#9670;&#160;</a></span>Load() <span class="overload">[1/2]</span></h2>
+<a id="ab82577d27c391482d83de3dca3a768a4" name="ab82577d27c391482d83de3dca3a768a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab82577d27c391482d83de3dca3a768a4">&#9670;&#160;</a></span>Load() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ArcdpsExtension::Localization::Load </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>pLang</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Load the default translations for the specified language. Call it for each default language you want to support. This is not needed for English, because that one is loaded on construction. Default languages are available in <a class="el" href="namespaceArcdpsExtension_1_1Lang.html">ArcdpsExtension::Lang</a>. </p>
+
+</div>
+</div>
+<a id="ad1c6a430539ba845d007d184f5a6cfa5" name="ad1c6a430539ba845d007d184f5a6cfa5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1c6a430539ba845d007d184f5a6cfa5">&#9670;&#160;</a></span>Load() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename R &gt; <br />
-requires details::KeyValueRangeOf&lt;R, size_t, std::string&gt;</div>
+requires details::KeyValueRangeOf&lt;R, size_t, std::string_view&gt;</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -479,17 +500,18 @@ requires details::KeyValueRangeOf&lt;R, size_t, std::string&gt;</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Add/Overwrite a key-value-range of translations. The value of the range must be convertible to <code>std::string_view</code>. Example ranges: <code>std::map&lt;Key, const char*&gt;</code> or <code>std::vector&lt;std::pair&lt;Key, const char*&gt;&gt;</code>. </p>
 
 </div>
 </div>
-<a id="acb2358128fd781cba1128014d9ee14af" name="acb2358128fd781cba1128014d9ee14af"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acb2358128fd781cba1128014d9ee14af">&#9670;&#160;</a></span>Load() <span class="overload">[2/2]</span></h2>
+<a id="a77a5724c44a20acbd9b7b3f08fd4d30e" name="a77a5724c44a20acbd9b7b3f08fd4d30e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77a5724c44a20acbd9b7b3f08fd4d30e">&#9670;&#160;</a></span>Load() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename R &gt; <br />
-requires details::KeyValueRangeOf&lt;R, size_t, const char8_t*&gt;</div>
+requires details::KeyValueRangeOf&lt;R, size_t, std::u8string_view&gt;</div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -518,6 +540,7 @@ requires details::KeyValueRangeOf&lt;R, size_t, const char8_t*&gt;</div>
   </tr>
 </table>
 </div><div class="memdoc">
+<p>Add/Overwrite a key-value-range of translations. The value of the range must be convertible to <code>std::u8string_view</code>. Example ranges: <code>std::map&lt;Key, const char8_t*&gt;</code> or <code>std::vector&lt;std::pair&lt;Key, const char8_t*&gt;&gt;</code>. </p>
 
 </div>
 </div>

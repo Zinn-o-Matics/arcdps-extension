@@ -1,7 +1,7 @@
 var searchData=
 [
   ['last90beforedown_0',['Last90BeforeDown',['../classArcdpsExtension_1_1CombatEventHandler.html#a7c55cce9e3f0cd864282c16771ae44c0',1,'ArcdpsExtension::CombatEventHandler']]],
-  ['load_1',['load',['../classArcdpsExtension_1_1Localization.html#a02b97720f0e40b83aad8cb0504bcedc6',1,'ArcdpsExtension::Localization::Load(const std::string &amp;pLang, const R &amp;pRange)'],['../classArcdpsExtension_1_1Localization.html#acb2358128fd781cba1128014d9ee14af',1,'ArcdpsExtension::Localization::Load(const std::string &amp;pLang, const R &amp;pRange)']]],
+  ['load_1',['load',['../classArcdpsExtension_1_1Localization.html#ad1c6a430539ba845d007d184f5a6cfa5',1,'ArcdpsExtension::Localization::Load(const std::string &amp;pLang, const R &amp;pRange)'],['../classArcdpsExtension_1_1Localization.html#a77a5724c44a20acbd9b7b3f08fd4d30e',1,'ArcdpsExtension::Localization::Load(const std::string &amp;pLang, const R &amp;pRange)'],['../classArcdpsExtension_1_1Localization.html#ab82577d27c391482d83de3dca3a768a4',1,'ArcdpsExtension::Localization::Load(const std::string &amp;pLang)']]],
   ['localization_2',['Localization',['../classArcdpsExtension_1_1Localization.html#a374341af45316c0bb27efa954db0232d',1,'ArcdpsExtension::Localization']]],
   ['log_3',['log',['../classArcdpsExtension_1_1CombatEventHandler.html#a87d4e6e67307317967a878fa0ac16e10',1,'ArcdpsExtension::CombatEventHandler::Log()'],['../classArcdpsExtension_1_1UpdateCheckerBase.html#a530319f818f4eb2df8aa8a2f8098c2f0',1,'ArcdpsExtension::UpdateCheckerBase::Log()']]],
   ['logend_4',['LogEnd',['../classArcdpsExtension_1_1CombatEventHandler.html#a77d395f460b399e88cbea085af921ea1',1,'ArcdpsExtension::CombatEventHandler']]],

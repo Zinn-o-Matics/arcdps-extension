@@ -17,7 +17,7 @@ var searchData=
   ['lgolem_14',['LGolem',['../MobIDs_8h.html#aa4183a394aa4e7600297584922235450aba6dfc470832e29b971e72ca61c5d513',1,'MobIDs.h']]],
   ['lightthieves_15',['LightThieves',['../MobIDs_8h.html#aea3234b9e6ff7f848ac3d3f5fb432f63a9f551c14ba9f96f546c38e29dc3d79d0',1,'MobIDs.h']]],
   ['linkedmem_16',['LinkedMem',['../structLinkedMem.html',1,'']]],
-  ['load_17',['load',['../classArcdpsExtension_1_1Localization.html#a02b97720f0e40b83aad8cb0504bcedc6',1,'ArcdpsExtension::Localization::Load(const std::string &amp;pLang, const R &amp;pRange)'],['../classArcdpsExtension_1_1Localization.html#acb2358128fd781cba1128014d9ee14af',1,'ArcdpsExtension::Localization::Load(const std::string &amp;pLang, const R &amp;pRange)']]],
+  ['load_17',['load',['../classArcdpsExtension_1_1Localization.html#ab82577d27c391482d83de3dca3a768a4',1,'ArcdpsExtension::Localization::Load(const std::string &amp;pLang)'],['../classArcdpsExtension_1_1Localization.html#a77a5724c44a20acbd9b7b3f08fd4d30e',1,'ArcdpsExtension::Localization::Load(const std::string &amp;pLang, const R &amp;pRange)'],['../classArcdpsExtension_1_1Localization.html#ad1c6a430539ba845d007d184f5a6cfa5',1,'ArcdpsExtension::Localization::Load(const std::string &amp;pLang, const R &amp;pRange)']]],
   ['loading_20icons_20into_20dx11_18',['Loading Icons into DX11',['../md_Readme.html#autotoc_md7',1,'']]],
   ['localization_19',['localization',['../classArcdpsExtension_1_1Localization.html',1,'ArcdpsExtension::Localization'],['../classArcdpsExtension_1_1Localization.html#a374341af45316c0bb27efa954db0232d',1,'ArcdpsExtension::Localization::Localization()']]],
   ['localization_2ecpp_20',['Localization.cpp',['../Localization_8cpp.html',1,'']]],
