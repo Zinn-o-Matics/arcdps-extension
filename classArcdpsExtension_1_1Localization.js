@@ -6,7 +6,7 @@ var classArcdpsExtension_1_1Localization =
     [ "AddTranslation", "classArcdpsExtension_1_1Localization.html#a007cc1d79a5661bb53cba36df954130f", null ],
     [ "ChangeFallbackLanguage", "classArcdpsExtension_1_1Localization.html#a929a98a8e08c082a05b67e61bbe5c2e5", null ],
     [ "ChangeLanguage", "classArcdpsExtension_1_1Localization.html#acb2ae79c438ffdacbafa53ec780c87f6", null ],
-    [ "GetLanguages", "classArcdpsExtension_1_1Localization.html#af8be3fe96e83d7ac41b42e256a83a497", null ],
+    [ "GetLanguages", "classArcdpsExtension_1_1Localization.html#ae53ebf782cfb9fc9236c79747ac8eb31", null ],
     [ "Load", "classArcdpsExtension_1_1Localization.html#ab82577d27c391482d83de3dca3a768a4", null ],
     [ "Load", "classArcdpsExtension_1_1Localization.html#ad1c6a430539ba845d007d184f5a6cfa5", null ],
     [ "Load", "classArcdpsExtension_1_1Localization.html#a77a5724c44a20acbd9b7b3f08fd4d30e", null ],

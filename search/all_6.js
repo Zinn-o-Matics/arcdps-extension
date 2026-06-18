@@ -36,7 +36,7 @@ var searchData=
   ['getkeybind_33',['getkeybind',['../classArcdpsExtension_1_1KeyBindComponent.html#abbc56301df5a19e50ac1aff380c97127',1,'ArcdpsExtension::KeyBindComponent::getKeyBind()'],['../classArcdpsExtension_1_1DemoKeyBindComponent.html#ad5eba5595f523ea3ad627524c7269718',1,'ArcdpsExtension::DemoKeyBindComponent::getKeyBind()']]],
   ['getkeybindswitch_34',['getKeyBindSwitch',['../classArcdpsExtension_1_1KeyBindComponent.html#a1ec2795ffe87d19de9e83258d59ea7bc',1,'ArcdpsExtension::KeyBindComponent']]],
   ['getkeycodeinputkeystate_35',['GetKeyCodeInputKeyState',['../namespaceImGuiEx.html#af24ac543a950b7fb516aa516b4c21280',1,'ImGuiEx']]],
-  ['getlanguages_36',['GetLanguages',['../classArcdpsExtension_1_1Localization.html#af8be3fe96e83d7ac41b42e256a83a497',1,'ArcdpsExtension::Localization']]],
+  ['getlanguages_36',['GetLanguages',['../classArcdpsExtension_1_1Localization.html#ae53ebf782cfb9fc9236c79747ac8eb31',1,'ArcdpsExtension::Localization']]],
   ['getlatestrelease_37',['GetLatestRelease',['../classArcdpsExtension_1_1UpdateCheckerBase.html#aaa9ec8e615c7a5bb2f0493b46aad53a8',1,'ArcdpsExtension::UpdateCheckerBase']]],
   ['getmaxcolumncount_38',['GetMaxColumnCount',['../classArcdpsExtension_1_1MainTable.html#a27d00fdea3c4f4c18a1900b26697cbd5',1,'ArcdpsExtension::MainTable']]],
   ['getmaxcursorpos_39',['GetMaxCursorPos',['../classArcdpsExtension_1_1MainWindow.html#a45f69e74f29c5a3aa0c7bb1e39200293',1,'ArcdpsExtension::MainWindow']]],
