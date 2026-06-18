@@ -1,5 +1,6 @@
 var searchData=
 [
   ['linkedmem_0',['LinkedMem',['../structLinkedMem.html',1,'']]],
-  ['localization_1',['Localization',['../classArcdpsExtension_1_1Localization.html',1,'ArcdpsExtension']]]
+  ['localization_1',['Localization',['../classArcdpsExtension_1_1Localization.html',1,'ArcdpsExtension']]],
+  ['localizationtests_2',['LocalizationTests',['../classLocalizationTests.html',1,'']]]
 ];

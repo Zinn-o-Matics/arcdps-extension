@@ -1,7 +1,8 @@
 var LocalizationTests_8cpp =
 [
-    [ "TEST", "LocalizationTests_8cpp.html#adfc7a1bc30017d42b207492f1e6dd39d", null ],
-    [ "TEST", "LocalizationTests_8cpp.html#a6a5fe43b7f6ac7addff9f520dd0ee26c", null ],
-    [ "TEST", "LocalizationTests_8cpp.html#a7171812749eff94bd7fac0b4490b50b4", null ],
-    [ "TEST", "LocalizationTests_8cpp.html#a03bffac9dd95d95e7c7f5724fe46a743", null ]
+    [ "LocalizationTests", "classLocalizationTests.html", "classLocalizationTests" ],
+    [ "TEST_F", "LocalizationTests_8cpp.html#a1f3d26fa003dcbb4101986b73983bca0", null ],
+    [ "TEST_F", "LocalizationTests_8cpp.html#ac9b684ddf692c45bfa7eeeaa895b5b4b", null ],
+    [ "TEST_F", "LocalizationTests_8cpp.html#a033a5adfb1d4ae8119eff45db5181411", null ],
+    [ "TEST_F", "LocalizationTests_8cpp.html#afaaf67cb8b88146a65cdd558c7a8c5fa", null ]
 ];

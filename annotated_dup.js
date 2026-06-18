@@ -39,6 +39,7 @@ var annotated_dup =
     [ "Identity", "structIdentity.html", "structIdentity" ],
     [ "InputTextCallback_UserData", "structInputTextCallback__UserData.html", "structInputTextCallback__UserData" ],
     [ "LinkedMem", "structLinkedMem.html", "structLinkedMem" ],
+    [ "LocalizationTests", "classLocalizationTests.html", "classLocalizationTests" ],
     [ "MumbleContext", "structMumbleContext.html", "structMumbleContext" ],
     [ "SimpleNetworkStackTests", "classSimpleNetworkStackTests.html", "classSimpleNetworkStackTests" ]
 ];

@@ -70,6 +70,7 @@ var hierarchy =
     [ "testing::Test", null, [
       [ "EventSequencerTests", "classEventSequencerTests.html", null ],
       [ "IconLoaderTests", "classIconLoaderTests.html", null ],
+      [ "LocalizationTests", "classLocalizationTests.html", null ],
       [ "SimpleNetworkStackTests", "classSimpleNetworkStackTests.html", null ]
     ] ],
     [ "ArcdpsExtension::UpdateCheckerBase", "classArcdpsExtension_1_1UpdateCheckerBase.html", [
