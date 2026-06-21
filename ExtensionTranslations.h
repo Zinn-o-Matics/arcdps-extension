@@ -213,7 +213,7 @@ namespace ArcdpsExtension {
 			{ET_HeaderAlignment,                 u8"Alignement de l'en-tête"                                                      },
 			{ET_ColumnAlignment,                 u8"Alignement des colonnes"                                                      },
 			{ET_Language,                        u8"Langue"                                                                       },
-			{ET_SettingsShowHeaderText,          u8"Afficher l'en-tête avec du texte à la place d'icônes"                         },
+			{ET_SettingsShowHeaderText,          u8"Afficher l'en-tête avec du texte au lieu d'icônes"    	                      },
 			{ET_LanguageName,                    u8"Français"                                                                     },
 			{ET_LikeInGame,                      u8"Identique au jeu"                                                             },
 	});
