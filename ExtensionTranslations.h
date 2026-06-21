@@ -180,7 +180,7 @@ namespace ArcdpsExtension {
 			{ET_CornerPositionBottomRight,       u8"Bas-droite"                                                                   },
 			{ET_SizingPolicySizeToContent,       u8"Automatique"                                                                  },
 			{ET_SizingPolicySizeContentToWindow, u8"Adapter le contenu"                                                           },
-			{ET_SizingPolicyManualWindowSize,    u8"Manuel(le)"                                                                   },
+			{ET_SizingPolicyManualWindowSize,    u8"Manuelle"                                                                     },
 			{ET_KeyInputPopupName,               u8"Raccourci"                                                                    },
 			{ET_ApplyButton,                     u8"Appliquer"                                                                    },
 			{ET_CancelButton,                    u8"Annuler"                                                                      },
