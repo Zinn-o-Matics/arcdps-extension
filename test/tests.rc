@@ -1,4 +1,3 @@
 #include "resource.h"
-#include "winresrc.h"
 
 ID_Alacrity PNG "Alacrity.png"
