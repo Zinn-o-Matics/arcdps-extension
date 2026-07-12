@@ -12,12 +12,17 @@ if (NOT FETCHCONTENT_FULLY_DISCONNECTED)
 	list(APPEND VCPKG_OVERLAY_TRIPLETS "${my-vcpkg-triplets_SOURCE_DIR}")
 endif ()
 
-project(ArcdpsExtension CXX)
-
-option(BUILD_TESTS "Build the GTest executable" OFF)
+option(ARCDPS_EXTENSION_BUILD_TESTS "Build the GTest executable" OFF)
 option(ARCDPS_EXTENSION_CURL "make tools available, that depend on curl" ON)
 option(ARCDPS_EXTENSION_IMGUI "make imgui tools available" ON)
 option(ARCDPS_EXTENSION_UNOFFICIAL_EXTRAS "make tools available, that depend on arcdps-unofficial-extras" ON)
+
+# add tests as feature, so gtest is added
+if(ARCDPS_EXTENSION_BUILD_TESTS)
+	list(APPEND VCPKG_MANIFEST_FEATURES "tests")
+endif()
+
+project(ArcdpsExtension CXX)
 
 add_definitions(-DUNICODE)
 add_definitions(-D_UNICODE)
@@ -164,7 +169,7 @@ install(FILES cmake/vs-version.cmake cmake/VersionInfo.rc.in cmake/git-version.c
 #INSTALL(FILES SimpleRingBuffer.natvis DESTINATION .) # maybe share/${PROJECT_NAME} as destination (nlohman_json uses . though)
 
 # when tests are build, curl should always be defined
-if (BUILD_TESTS AND ARCDPS_EXTENSION_CURL)
+if (ARCDPS_EXTENSION_BUILD_TESTS AND ARCDPS_EXTENSION_CURL)
 	find_package(GTest CONFIG REQUIRED)
 	include(GoogleTest)
 	add_executable(

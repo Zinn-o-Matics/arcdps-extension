@@ -8,7 +8,7 @@
       "binaryDir": "${sourceDir}/cmake-build/${presetName}",
       "toolchainFile": "$env{VCPKG_ROOT}/scripts/buildsystems/vcpkg.cmake",
       "cacheVariables": {
-        "BUILD_TESTS": "ON"
+        "ARCDPS_EXTENSION_BUILD_TESTS": "ON"
       },
       "condition": {
         "type": "equals",
