@@ -7,10 +7,13 @@
   },
   "registries": [
     {
-	  "kind": "git",
-	  "repository": "https://github.com/Zinn-o-Matics/vcpkg-registry",
-	  "baseline": "337c836e6a9802e9708c599090d5c148c2353f7a",
-	  "packages": [ "imgui", "arcdps-unofficial-extras" ]
-	}
+      "kind": "git",
+      "repository": "https://github.com/Zinn-o-Matics/vcpkg-registry",
+      "baseline": "337c836e6a9802e9708c599090d5c148c2353f7a",
+      "packages": [
+        "imgui",
+        "arcdps-unofficial-extras"
+      ]
+    }
   ]
 }
