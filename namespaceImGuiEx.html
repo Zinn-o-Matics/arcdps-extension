@@ -132,9 +132,8 @@ Functions</h2></td></tr>
 <tr class="separator:ab5a5efe000bdeae4923399b5edf86699"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af24ac543a950b7fb516aa516b4c21280" id="r_af24ac543a950b7fb516aa516b4c21280"><td class="memItemLeft" align="right" valign="top">const KeyBinds::Key &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGuiEx.html#af24ac543a950b7fb516aa516b4c21280">GetKeyCodeInputKeyState</a> ()</td></tr>
 <tr class="separator:af24ac543a950b7fb516aa516b4c21280"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87095bac980080b5412ea3c064f09044" id="r_a87095bac980080b5412ea3c064f09044"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGuiEx.html#a87095bac980080b5412ea3c064f09044">KeyCodeInput</a> (const char *pLabel, KeyBinds::Key &amp;pKeyContainer, Language pLanguage, HKL pHkl, <a class="el" href="namespaceImGuiEx.html#a0eb2d9894da54d114b92219e015892d8">KeyCodeInputFlags</a> pFlags=0, KeyBinds::Modifier pFixedModifier=0)</td></tr>
-<tr class="memdesc:a87095bac980080b5412ea3c064f09044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show a keybind on a button. On pressing that button a popup is opened and all keyevents are used to fill the keybind. (Kind of like GW2 does it).  <br /></td></tr>
-<tr class="separator:a87095bac980080b5412ea3c064f09044"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa70f4634beaadad617b13b61b782e412" id="r_aa70f4634beaadad617b13b61b782e412"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGuiEx.html#aa70f4634beaadad617b13b61b782e412">KeyCodeInput</a> (const char *pLabel, KeyBinds::Key &amp;pKeyContainer, HKL pHkl, <a class="el" href="namespaceImGuiEx.html#a0eb2d9894da54d114b92219e015892d8">KeyCodeInputFlags</a> pFlags, KeyBinds::Modifier pFixedModifier)</td></tr>
+<tr class="separator:aa70f4634beaadad617b13b61b782e412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad089af456defbeb50cfdfba61437dc76" id="r_ad089af456defbeb50cfdfba61437dc76"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGuiEx.html#ad089af456defbeb50cfdfba61437dc76">Spinner</a> (const char *label, float radius, float thickness, const ImU32 &amp;color)</td></tr>
 <tr class="separator:ad089af456defbeb50cfdfba61437dc76"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29f894fcf0609d311e6e8bef7ca69d0b" id="r_a29f894fcf0609d311e6e8bef7ca69d0b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGuiEx.html#a29f894fcf0609d311e6e8bef7ca69d0b">SpinnerAligned</a> (const char *label, float radius, float thickness, const ImU32 &amp;color, <a class="el" href="arcdps__structs_8h.html#acdfaca60ec19c0265bac2692d7982726">Alignment</a> alignment)</td></tr>
@@ -930,8 +929,8 @@ requires (!std::ranges::viewable_range&lt;T&gt;)</div>
 
 </div>
 </div>
-<a id="a87095bac980080b5412ea3c064f09044" name="a87095bac980080b5412ea3c064f09044"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87095bac980080b5412ea3c064f09044">&#9670;&#160;</a></span>KeyCodeInput()</h2>
+<a id="aa70f4634beaadad617b13b61b782e412" name="aa70f4634beaadad617b13b61b782e412"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa70f4634beaadad617b13b61b782e412">&#9670;&#160;</a></span>KeyCodeInput()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -947,12 +946,6 @@ requires (!std::ranges::viewable_range&lt;T&gt;)</div>
           <td></td>
           <td class="paramtype">KeyBinds::Key &amp;&#160;</td>
           <td class="paramname"><em>pKeyContainer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Language&#160;</td>
-          <td class="paramname"><em>pLanguage</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -979,13 +972,12 @@ requires (!std::ranges::viewable_range&lt;T&gt;)</div>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p>Show a keybind on a button. On pressing that button a popup is opened and all keyevents are used to fill the keybind. (Kind of like GW2 does it). </p>
+<p>Show a keybind on a button. On pressing that button a popup is opened and all keyevents are used to fill the keybind. (Kind of like GW2 does it).</p>
+<p>Make sure to properly setup Localization with added UETranslations!</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pLabel</td><td>Shown as text next to the input button. Also shown in the popup header. Will be used as ID for the button. </td></tr>
     <tr><td class="paramname">pKeyContainer</td><td>The container of the original key, when pressing <code>Apply</code> it will be saved in there. </td></tr>
-    <tr><td class="paramname">pLanguage</td><td>The language in which this Tool should be shown. </td></tr>
     <tr><td class="paramname">pHkl</td><td>current Keyboardlayout, has to be tracked, cause <code>GetKeyboardLayout</code> is thread dependent. You can get it by tracking window events or by calling <code>GetKeyboardLayout</code> with the correct threadId as param. </td></tr>
     <tr><td class="paramname">pFlags</td><td>Additional flags for the input. </td></tr>
   </table>

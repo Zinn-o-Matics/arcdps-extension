@@ -9,7 +9,7 @@ var KeyInput_8h =
     ] ],
     [ "CloseKeyCodePopupState", "KeyInput_8h.html#ac42db620be0af5f878ae8e50177c545e", null ],
     [ "GetKeyCodeInputKeyState", "KeyInput_8h.html#af24ac543a950b7fb516aa516b4c21280", null ],
-    [ "KeyCodeInput", "KeyInput_8h.html#a87095bac980080b5412ea3c064f09044", null ],
+    [ "KeyCodeInput", "KeyInput_8h.html#aa70f4634beaadad617b13b61b782e412", null ],
     [ "KeyCodeInputActiveFrame", "KeyInput_8h.html#ab5a5efe000bdeae4923399b5edf86699", null ],
     [ "KeyCodeInputWndHandle", "KeyInput_8h.html#a055c747f57ad7bac5ffb4b23fd5450ed", null ],
     [ "OpenKeyCodePopupState", "KeyInput_8h.html#a38c84d1aa305de5b8a30fa24e398c426", null ],

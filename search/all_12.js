@@ -23,7 +23,7 @@ var searchData=
   ['setspecificcolumnsetup_20',['SetSpecificColumnSetup',['../classArcdpsExtension_1_1MainTable.html#ae3494ace7f41b2d37dbe4e434f84aaa1',1,'ArcdpsExtension::MainTable']]],
   ['settingsloadedflags_21',['SettingsLoadedFlags',['../structArcdpsExtension_1_1MainTable_1_1Table.html#af1d3ccbeeb17411263050205210f5ed1',1,'ArcdpsExtension::MainTable::Table']]],
   ['settingsoffset_22',['SettingsOffset',['../structArcdpsExtension_1_1MainTable_1_1Table.html#ac0920a999dcaeaa0109916136edb7989',1,'ArcdpsExtension::MainTable::Table']]],
-  ['setup_23',['setup',['../namespaceArcdpsExtension.html#ae2e262959279d355e06a56e2227e1bc4',1,'ArcdpsExtension::Setup()'],['../classLocalizationTests.html#ac25ce85a8a1f9b6db1b2043cbdf8808c',1,'LocalizationTests::SetUp()']]],
+  ['setup_23',['setup',['../namespaceArcdpsExtension.html#ae2e262959279d355e06a56e2227e1bc4',1,'ArcdpsExtension::Setup()'],['../classUETranslationsTests.html#a9b9c1761997f231572662f8b5e450244',1,'UETranslationsTests::SetUp()'],['../classLocalizationTests.html#ac25ce85a8a1f9b6db1b2043cbdf8808c',1,'LocalizationTests::SetUp()']]],
   ['setupcolumn_24',['SetupColumn',['../classArcdpsExtension_1_1MainTable.html#a7217d4c9d993825b4801e75a73442aa5',1,'ArcdpsExtension::MainTable']]],
   ['setupscrollfreeze_25',['SetupScrollFreeze',['../classArcdpsExtension_1_1MainTable.html#a758f7601a08d1962824b3ec5b4ba7f44',1,'ArcdpsExtension::MainTable']]],
   ['setuptestsuite_26',['setuptestsuite',['../classEventSequencerTests.html#aaa8defcec6c27cd5c9a3a468d92611ab',1,'EventSequencerTests::SetUpTestSuite()'],['../classIconLoaderTests.html#adba0991b72358716ee3f9119082941ec',1,'IconLoaderTests::SetUpTestSuite()']]],

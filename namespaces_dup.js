@@ -32,7 +32,7 @@ var namespaces_dup =
       [ "FilteredCombo", "namespaceImGuiEx.html#a4900cc330eb6f829cc1463d033e686ff", null ],
       [ "FilteredCombo", "namespaceImGuiEx.html#ac84124bb2f6d24b2dbaed5e0b3864922", null ],
       [ "GetKeyCodeInputKeyState", "namespaceImGuiEx.html#af24ac543a950b7fb516aa516b4c21280", null ],
-      [ "KeyCodeInput", "namespaceImGuiEx.html#a87095bac980080b5412ea3c064f09044", null ],
+      [ "KeyCodeInput", "namespaceImGuiEx.html#aa70f4634beaadad617b13b61b782e412", null ],
       [ "KeyCodeInputActiveFrame", "namespaceImGuiEx.html#ab5a5efe000bdeae4923399b5edf86699", null ],
       [ "KeyCodeInputWndHandle", "namespaceImGuiEx.html#a055c747f57ad7bac5ffb4b23fd5450ed", null ],
       [ "KeyInput", "namespaceImGuiEx.html#a02dc1d0e8d5bf8c63bbb21339e416ea8", null ],

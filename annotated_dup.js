@@ -1,6 +1,9 @@
 var annotated_dup =
 [
     [ "ArcdpsExtension", "namespaceArcdpsExtension.html", [
+      [ "UETranslationsCustomize", "namespaceArcdpsExtension_1_1UETranslationsCustomize.html", [
+        [ "UETranslationStart", "structArcdpsExtension_1_1UETranslationsCustomize_1_1UETranslationStart.html", null ]
+      ] ],
       [ "BaseSingleton", "classArcdpsExtension_1_1BaseSingleton.html", "classArcdpsExtension_1_1BaseSingleton" ],
       [ "CombatEventHandler", "classArcdpsExtension_1_1CombatEventHandler.html", "classArcdpsExtension_1_1CombatEventHandler" ],
       [ "ComponentBase", "classArcdpsExtension_1_1ComponentBase.html", "classArcdpsExtension_1_1ComponentBase" ],
@@ -41,5 +44,6 @@ var annotated_dup =
     [ "LinkedMem", "structLinkedMem.html", "structLinkedMem" ],
     [ "LocalizationTests", "classLocalizationTests.html", "classLocalizationTests" ],
     [ "MumbleContext", "structMumbleContext.html", "structMumbleContext" ],
-    [ "SimpleNetworkStackTests", "classSimpleNetworkStackTests.html", "classSimpleNetworkStackTests" ]
+    [ "SimpleNetworkStackTests", "classSimpleNetworkStackTests.html", "classSimpleNetworkStackTests" ],
+    [ "UETranslationsTests", "classUETranslationsTests.html", "classUETranslationsTests" ]
 ];

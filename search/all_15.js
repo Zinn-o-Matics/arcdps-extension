@@ -1,7 +1,7 @@
 var searchData=
 [
   ['valeguardian_0',['ValeGuardian',['../MobIDs_8h.html#aa4183a394aa4e7600297584922235450a36321ef677c3994b48a862ee3e3a554e',1,'MobIDs.h']]],
-  ['value_1',['value',['../structcbtevent.html#a58e55ba899ef3eabf92ade72a3022439',1,'cbtevent']]],
+  ['value_1',['value',['../structArcdpsExtension_1_1UETranslationsCustomize_1_1UETranslationStart.html#a393c89fa50db7ae5ea842e0e46171f15',1,'ArcdpsExtension::UETranslationsCustomize::UETranslationStart::value'],['../structcbtevent.html#a58e55ba899ef3eabf92ade72a3022439',1,'cbtevent::value']]],
   ['value_5ftype_2',['value_type',['../classArcdpsExtension_1_1RingBuffer_1_1RingBufferIterator.html#a17b91fb1ec26d82c119cb9c2fedf5317',1,'ArcdpsExtension::RingBuffer::RingBufferIterator']]],
   ['variniastormsounder_3',['VariniaStormsounder',['../MobIDs_8h.html#aa4183a394aa4e7600297584922235450a17d6efffa0bdd81676fc934e87b65f19',1,'MobIDs.h']]],
   ['vcpkg_4',['vcpkg',['../md_Readme.html#autotoc_md3',1,'']]],

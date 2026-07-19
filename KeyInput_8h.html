@@ -106,7 +106,7 @@ $(document).ready(function(){initNavTree('KeyInput_8h.html',''); initResizable()
 <div class="textblock"><code>#include &lt;ArcdpsUnofficialExtras/KeyBindStructs.h&gt;</code><br />
 <code>#include &lt;ArcdpsUnofficialExtras/Definitions.h&gt;</code><br />
 <code>#include &lt;cstdint&gt;</code><br />
-<code>#include &lt;windows.h&gt;</code><br />
+<code>#include &lt;Windows.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for KeyInput.h:</div>
 <div class="dyncontent">
@@ -119,8 +119,8 @@ Include dependency graph for KeyInput.h:</div>
 <area shape="poly" title=" " alt="" coords="346,33,311,70,307,67,342,29"/>
 <area shape="rect" title=" " alt="" coords="393,86,459,111"/>
 <area shape="poly" title=" " alt="" coords="367,29,408,74,404,77,363,33"/>
-<area shape="rect" title=" " alt="" coords="483,86,574,111"/>
-<area shape="poly" title=" " alt="" coords="380,28,492,78,490,83,378,33"/>
+<area shape="rect" title=" " alt="" coords="483,86,577,111"/>
+<area shape="poly" title=" " alt="" coords="381,28,493,78,491,83,379,33"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -162,9 +162,8 @@ Functions</h2></td></tr>
 <tr class="memitem:a055c747f57ad7bac5ffb4b23fd5450ed" id="r_a055c747f57ad7bac5ffb4b23fd5450ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGuiEx.html#a055c747f57ad7bac5ffb4b23fd5450ed">ImGuiEx::KeyCodeInputWndHandle</a> (HWND pWindowHandle, UINT pMessage, WPARAM pAdditionalW, LPARAM pAdditionalL)</td></tr>
 <tr class="memdesc:a055c747f57ad7bac5ffb4b23fd5450ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Has to be called in <code>mod_wnd</code> or your specific window handler. This function only has to be called once per program.  <br /></td></tr>
 <tr class="separator:a055c747f57ad7bac5ffb4b23fd5450ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a87095bac980080b5412ea3c064f09044" id="r_a87095bac980080b5412ea3c064f09044"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGuiEx.html#a87095bac980080b5412ea3c064f09044">ImGuiEx::KeyCodeInput</a> (const char *pLabel, KeyBinds::Key &amp;pKeyContainer, Language pLanguage, HKL pHkl, <a class="el" href="namespaceImGuiEx.html#a0eb2d9894da54d114b92219e015892d8">KeyCodeInputFlags</a> pFlags=0, KeyBinds::Modifier pFixedModifier=0)</td></tr>
-<tr class="memdesc:a87095bac980080b5412ea3c064f09044"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show a keybind on a button. On pressing that button a popup is opened and all keyevents are used to fill the keybind. (Kind of like GW2 does it).  <br /></td></tr>
-<tr class="separator:a87095bac980080b5412ea3c064f09044"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa70f4634beaadad617b13b61b782e412" id="r_aa70f4634beaadad617b13b61b782e412"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGuiEx.html#aa70f4634beaadad617b13b61b782e412">ImGuiEx::KeyCodeInput</a> (const char *pLabel, KeyBinds::Key &amp;pKeyContainer, HKL pHkl, <a class="el" href="namespaceImGuiEx.html#a0eb2d9894da54d114b92219e015892d8">KeyCodeInputFlags</a> pFlags, KeyBinds::Modifier pFixedModifier)</td></tr>
+<tr class="separator:aa70f4634beaadad617b13b61b782e412"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38c84d1aa305de5b8a30fa24e398c426" id="r_a38c84d1aa305de5b8a30fa24e398c426"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGuiEx.html#a38c84d1aa305de5b8a30fa24e398c426">ImGuiEx::OpenKeyCodePopupState</a> (const KeyBinds::Key &amp;pKeyContainer, <a class="el" href="namespaceImGuiEx.html#a0eb2d9894da54d114b92219e015892d8">KeyCodeInputFlags</a> pFlags, KeyBinds::Modifier pFixedModifier)</td></tr>
 <tr class="separator:a38c84d1aa305de5b8a30fa24e398c426"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac42db620be0af5f878ae8e50177c545e" id="r_ac42db620be0af5f878ae8e50177c545e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceImGuiEx.html#ac42db620be0af5f878ae8e50177c545e">ImGuiEx::CloseKeyCodePopupState</a> ()</td></tr>

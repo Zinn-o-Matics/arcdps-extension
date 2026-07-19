@@ -71,8 +71,10 @@ var hierarchy =
       [ "EventSequencerTests", "classEventSequencerTests.html", null ],
       [ "IconLoaderTests", "classIconLoaderTests.html", null ],
       [ "LocalizationTests", "classLocalizationTests.html", null ],
-      [ "SimpleNetworkStackTests", "classSimpleNetworkStackTests.html", null ]
+      [ "SimpleNetworkStackTests", "classSimpleNetworkStackTests.html", null ],
+      [ "UETranslationsTests", "classUETranslationsTests.html", null ]
     ] ],
+    [ "ArcdpsExtension::UETranslationsCustomize::UETranslationStart< typename >", "structArcdpsExtension_1_1UETranslationsCustomize_1_1UETranslationStart.html", null ],
     [ "ArcdpsExtension::UpdateCheckerBase", "classArcdpsExtension_1_1UpdateCheckerBase.html", [
       [ "ArcdpsExtension::UpdateCheckerExtended", "classArcdpsExtension_1_1UpdateCheckerExtended.html", [
         [ "ArcdpsExtension::UpdateChecker", "classArcdpsExtension_1_1UpdateChecker.html", null ]
