@@ -18,7 +18,6 @@ var classArcdpsExtension_1_1MainWindow =
     [ "DrawStyleSettingsSubMenu", "classArcdpsExtension_1_1MainWindow.html#a824dbb2c08b922a53ed16b3f0b0a9164", null ],
     [ "getAppearAsInOption", "classArcdpsExtension_1_1MainWindow.html#aab8a867126c091597c23b2896a5d77f3", null ],
     [ "getAppearAsInOptionDefault", "classArcdpsExtension_1_1MainWindow.html#a13670402d94f8d60ad6c773aeef388c7", null ],
-    [ "getCurrentLanguage", "classArcdpsExtension_1_1MainWindow.html#a494d3a8a2eab6b097b53f3705ae064dd", null ],
     [ "GetInnerWindow", "classArcdpsExtension_1_1MainWindow.html#a41d1e5b3ca96d3feda741a5ad286530a", null ],
     [ "GetMaxCursorPos", "classArcdpsExtension_1_1MainWindow.html#a45f69e74f29c5a3aa0c7bb1e39200293", null ],
     [ "getMaxHeightActive", "classArcdpsExtension_1_1MainWindow.html#a0416d70a10b9a5a0ea045ca085dbf8eb", null ],

@@ -1,9 +1,5 @@
 var NAVTREEINDEX13 =
 {
-"structArcdpsExtension_1_1MainTable_1_1Table.html#a25204538a547756e1ccc659891670f66":[2,0,0,16,0,94],
-"structArcdpsExtension_1_1MainTable_1_1Table.html#a25204538a547756e1ccc659891670f66":[4,0,0,14,0,94],
-"structArcdpsExtension_1_1MainTable_1_1Table.html#a2730d26dbb04c417b33a12b96abbcbff":[4,0,0,14,0,44],
-"structArcdpsExtension_1_1MainTable_1_1Table.html#a2730d26dbb04c417b33a12b96abbcbff":[2,0,0,16,0,44],
 "structArcdpsExtension_1_1MainTable_1_1Table.html#a27f2184d09c6199d9b80b008de8da532":[2,0,0,16,0,103],
 "structArcdpsExtension_1_1MainTable_1_1Table.html#a27f2184d09c6199d9b80b008de8da532":[4,0,0,14,0,103],
 "structArcdpsExtension_1_1MainTable_1_1Table.html#a313a351f2971d989d6438a14f3549cc1":[2,0,0,16,0,99],
@@ -249,5 +245,9 @@ var NAVTREEINDEX13 =
 "structArcdpsExtension_1_1MainTable_1_1TableColumn.html#a957f5df3a1b1702c572c9e43cffff71f":[4,0,0,14,1,36],
 "structArcdpsExtension_1_1MainTable_1_1TableColumn.html#a957f5df3a1b1702c572c9e43cffff71f":[2,0,0,16,1,36],
 "structArcdpsExtension_1_1MainTable_1_1TableColumn.html#a9becc102c1ca4fe5b06deea635ac2a97":[4,0,0,14,1,29],
-"structArcdpsExtension_1_1MainTable_1_1TableColumn.html#a9becc102c1ca4fe5b06deea635ac2a97":[2,0,0,16,1,29]
+"structArcdpsExtension_1_1MainTable_1_1TableColumn.html#a9becc102c1ca4fe5b06deea635ac2a97":[2,0,0,16,1,29],
+"structArcdpsExtension_1_1MainTable_1_1TableColumn.html#a9debfcf78f7400784db850976a23de8f":[4,0,0,14,1,38],
+"structArcdpsExtension_1_1MainTable_1_1TableColumn.html#a9debfcf78f7400784db850976a23de8f":[2,0,0,16,1,38],
+"structArcdpsExtension_1_1MainTable_1_1TableColumn.html#a9ea513429c445fc67228ebb64f897049":[4,0,0,14,1,39],
+"structArcdpsExtension_1_1MainTable_1_1TableColumn.html#a9ea513429c445fc67228ebb64f897049":[2,0,0,16,1,39]
 };

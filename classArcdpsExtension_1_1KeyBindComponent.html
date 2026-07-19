@@ -155,8 +155,6 @@ Protected Member Functions</h2></td></tr>
 <tr class="separator:a00d8a4064eb98ca5f2aaf3bafcb4fdb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a358e915992c2bf5f14c29b499e805212" id="r_a358e915992c2bf5f14c29b499e805212"><td class="memItemLeft" align="right" valign="top">virtual HKL&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcdpsExtension_1_1KeyBindComponent.html#a358e915992c2bf5f14c29b499e805212">getCurrentHKL</a> ()</td></tr>
 <tr class="separator:a358e915992c2bf5f14c29b499e805212"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada7696360aaa15dad89a0f0879f64dd8" id="r_ada7696360aaa15dad89a0f0879f64dd8"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="arcdps__structs__slim_8h.html#a6332a2e6cc2d46a31c91124933609ad7">gwlanguage</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcdpsExtension_1_1KeyBindComponent.html#ada7696360aaa15dad89a0f0879f64dd8">getCurrentLanguage</a> ()</td></tr>
-<tr class="separator:ada7696360aaa15dad89a0f0879f64dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -164,7 +162,9 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:a3803846c853cd0124aff91a95223ebcc inherit pro_attribs_classArcdpsExtension_1_1ComponentBase" id="r_a3803846c853cd0124aff91a95223ebcc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classArcdpsExtension_1_1MainWindow.html">MainWindow</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classArcdpsExtension_1_1ComponentBase.html#a3803846c853cd0124aff91a95223ebcc">mMainWindow</a></td></tr>
 <tr class="separator:a3803846c853cd0124aff91a95223ebcc inherit pro_attribs_classArcdpsExtension_1_1ComponentBase"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>For the keybind option, uses the <a class="el" href="classArcdpsExtension_1_1Localization.html">Localization</a> class. Please make sure to initalize it and also Load UE_Translations. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a796dd5b1f73da73288fc53868ef41bde" name="a796dd5b1f73da73288fc53868ef41bde"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a796dd5b1f73da73288fc53868ef41bde">&#9670;&#160;</a></span>KeyBindComponent()</h2>
 
@@ -299,32 +299,6 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <p>Get the current KeyBoardLayout. Since we are not in the mainthread, this will most likely be wrong! This can be tracked in arcdps <code>mod_wnd</code>. </p>
-
-</div>
-</div>
-<a id="ada7696360aaa15dad89a0f0879f64dd8" name="ada7696360aaa15dad89a0f0879f64dd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada7696360aaa15dad89a0f0879f64dd8">&#9670;&#160;</a></span>getCurrentLanguage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="arcdps__structs__slim_8h.html#a6332a2e6cc2d46a31c91124933609ad7">gwlanguage</a> ArcdpsExtension::KeyBindComponent::getCurrentLanguage </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>The current language the plugin is set to. Default to english, this should be overridden to get proper language selection. The current language can be tracked with the <code>unofficial_extras</code> add-on. </p>
 
 </div>
 </div>
