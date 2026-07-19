@@ -171,13 +171,6 @@ namespace ArcdpsExtension {
 		virtual bool getMaxHeightActive() { return false; }
 
 		/**
-		 * The current language the plugin is set to.
-		 * Default to english, this should be overridden to get proper language selection.
-		 * The current language can be tracked with the `unofficial_extras` add-on.
-		 */
-		virtual gwlanguage getCurrentLanguage() { return GWL_ENG; }
-
-		/**
 		 * This can be called to draw the SubMenu of the "Style".
 		 * It will only draw the submenu and not the Menu option itself.
 		 *

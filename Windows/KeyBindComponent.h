@@ -9,6 +9,9 @@
 #include <windows.h>
 
 namespace ArcdpsExtension {
+	/**
+	 * For the keybind option, uses the Localization class. Please make sure to initalize it and also Load UE_Translations.
+	 */
 	class KeyBindComponent : public ComponentBase {
 	public:
 		explicit KeyBindComponent(MainWindow* pMainWindow);
@@ -58,13 +61,6 @@ namespace ArcdpsExtension {
 		 * This can be tracked in arcdps `mod_wnd`.
 		 */
 		virtual HKL getCurrentHKL() { return GetKeyboardLayout(NULL); }
-
-		/**
-		 * The current language the plugin is set to.
-		 * Default to english, this should be overridden to get proper language selection.
-		 * The current language can be tracked with the `unofficial_extras` add-on.
-		 */
-		virtual gwlanguage getCurrentLanguage() { return GWL_ENG; }
 
 	private:
 		uint64_t mKeyBindHandlerId = 0;
