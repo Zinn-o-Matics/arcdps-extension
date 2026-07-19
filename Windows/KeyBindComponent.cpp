@@ -27,7 +27,7 @@ ArcdpsExtension::KeyBindComponent::KeyBindComponent(MainWindow* pMainWindow) : C
 
 		if (getCloseWithEscActive()) {
 			mKeyBindEscHandlerId = KeyBindHandler::instance().Subscribe({
-					KeyBinds::Key{KeyBinds::DeviceType::Keyboard, static_cast<int32_t>(KeyBinds::KeyCode::Escape), 0},
+					KeyBinds::Key(KeyBinds::KeyCode::Escape),
 					[this](const KeyBinds::Key&) {
 						return mMainWindow->GetOpenVar() && getCloseWithEsc() && EscPressed();
 								  },

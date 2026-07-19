@@ -184,6 +184,11 @@ if (ARCDPS_EXTENSION_BUILD_TESTS AND ARCDPS_EXTENSION_CURL)
 			test/resource.h
 	)
 
+	# add tests that depend on unofficial extras
+	if (ARCDPS_EXTENSION_UNOFFICIAL_EXTRAS)
+		target_sources(${PROJECT_NAME}Tests PRIVATE UETranslationsTests.cpp)
+	endif ()
+
 	# Use -MT / -MTd runtime library
 	set_property(TARGET ${PROJECT_NAME}Tests PROPERTY
 			MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
