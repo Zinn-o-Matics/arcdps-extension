@@ -27,7 +27,7 @@ ArcdpsExtension::KeyBindComponent::KeyBindComponent(MainWindow* pMainWindow) : C
 
 		if (getCloseWithEscActive()) {
 			mKeyBindEscHandlerId = KeyBindHandler::instance().Subscribe({
-					KeyBinds::Key{KeyBinds::DeviceType::Keyboard, static_cast<int32_t>(KeyBinds::KeyCode::Escape), 0},
+					KeyBinds::Key(KeyBinds::KeyCode::Escape),
 					[this](const KeyBinds::Key&) {
 						return mMainWindow->GetOpenVar() && getCloseWithEsc() && EscPressed();
 								  },
@@ -37,7 +37,7 @@ ArcdpsExtension::KeyBindComponent::KeyBindComponent(MainWindow* pMainWindow) : C
 	});
 
 	pMainWindow->RegisterDrawStyleSubMenuHook([this] {
-		if (ImGuiEx::KeyCodeInput(Localization::STranslate(ET_Shortcut).data(), getKeyBind(), static_cast<Language>(getCurrentLanguage()), getCurrentHKL(), ImGuiEx::KeyCodeInputFlags_FixedModifier, KeyBindHandler::GetArcdpsModifier())) {
+		if (ImGuiEx::KeyCodeInput(Localization::STranslate(ET_Shortcut).data(), getKeyBind(), getCurrentHKL(), ImGuiEx::KeyCodeInputFlags_FixedModifier, KeyBindHandler::GetArcdpsModifier())) {
 			KeyBindHandler::instance().UpdateKey(mKeyBindHandlerId, getKeyBind());
 		}
 	});

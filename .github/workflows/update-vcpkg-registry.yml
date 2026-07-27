@@ -11,8 +11,8 @@ name: Publish to vcpkg registry
 
 on:
   push:
-    branches: [main]
-    paths: ['vcpkg.json']
+    branches: [ main ]
+    paths: [ 'vcpkg.json' ]
 
 jobs:
   publish:

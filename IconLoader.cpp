@@ -468,7 +468,7 @@ void ArcdpsExtension::IconLoader::QueueIcon::DeviceLoad() {
 	srvDesc.Texture2D.MostDetailedMip = 0;
 
 	ID3D11ShaderResourceView* d11Texture;
-	mIconLoader.mD11Device->CreateShaderResourceView(pTexture, &srvDesc, &d11Texture);
+	createTexture2DRes = mIconLoader.mD11Device->CreateShaderResourceView(pTexture, &srvDesc, &d11Texture);
 	if (FAILED(createTexture2DRes)) {
 		// error copying pixels to buffer
 		//		std::string text = "Error creating shader mResource View: ";

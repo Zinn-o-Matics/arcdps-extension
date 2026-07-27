@@ -1,8 +1,9 @@
 #include "KeyInput.h"
 
+#include "UETranslations.h"
+
 #include <ArcdpsUnofficialExtras/Definitions.h>
 #include <ArcdpsUnofficialExtras/KeyBindHelper.h>
-#include <ArcdpsUnofficialExtras/KeyBindsTranslation.h>
 #include <ArcdpsUnofficialExtras/KeyBindStructs.h>
 #include <cfloat>
 #include <cstddef>
@@ -188,7 +189,7 @@ namespace ImGuiEx {
 		return keyCodeInputKeyState;
 	}
 
-	bool KeyCodeInput(const char* pLabel, KeyBinds::Key& pKeyContainer, Language pLanguage, HKL pHkl, KeyCodeInputFlags pFlags, KeyBinds::Modifier pFixedModifier) {
+	bool KeyCodeInput(const char* pLabel, KeyBinds::Key& pKeyContainer, HKL pHkl, KeyCodeInputFlags pFlags, KeyBinds::Modifier pFixedModifier) {
 		bool res = false;
 
 		pFlags |= (pFlags & KeyCodeInputFlags_FixedModifier) ? KeyCodeInputFlags_NoModifier : 0;
@@ -203,7 +204,7 @@ namespace ImGuiEx {
 			keyContainerCopy.Modifier = pFixedModifier;
 		}
 
-		std::string keyStr = to_string(keyContainerCopy, pLanguage, pHkl);
+		std::string keyStr = to_string(keyContainerCopy, pHkl, true);
 		ImVec2 textSize = ImGui::CalcTextSize(keyStr.c_str());
 		keyStr.append("##");
 		keyStr.append(pLabel);
@@ -226,19 +227,19 @@ namespace ImGuiEx {
 		if (ImGui::BeginPopupModal(popupName.c_str(), NULL, ImGuiWindowFlags_NoMove | ImGuiWindowFlags_NoResize | ImGuiWindowFlags_AlwaysAutoResize)) {
 			ImGuiStyle& style = ImGui::GetStyle();
 
-			std::string keyCodeText = to_string(keyCodeInputKeyState, pLanguage, pHkl, true);
+			std::string keyCodeText = to_string(keyCodeInputKeyState, pHkl, true);
 			ImGui::TextUnformatted(keyCodeText.c_str());
 			ImGui::SameLine();
 
-			const auto& stringUnbind = to_string_unbind(pLanguage);
-			float buttonWidth = ImGui::CalcTextSize(stringUnbind.c_str()).x + style.FramePadding.x * 2;
+			auto stringUnbind = Localization::STranslate(UE_Unset);
+			float buttonWidth = ImGui::CalcTextSize(stringUnbind.data()).x + style.FramePadding.x * 2;
 			// ImGui::SameLine(ImGui::GetWindowWidth() - pos);
 			float cursorPosX = ImGui::GetCursorPosX();
 			float windowMaxX = ImGui::GetWindowContentRegionMax().x;
 			float posX = windowMaxX - buttonWidth;
 			if (posX < cursorPosX) posX = cursorPosX;
 			ImGui::SetCursorPosX(posX);
-			if (ImGui::Button(stringUnbind.c_str())) {
+			if (ImGui::Button(stringUnbind.data())) {
 				keyCodeInputKeyState.Code = 0;
 				keyCodeInputKeyState.DeviceType = KeyBinds::DeviceType::Unset;
 				keyCodeInputKeyState.Modifier = 0;
