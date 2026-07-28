@@ -630,7 +630,6 @@ enum gwlanguage {
 	GWL_GEM = 3,
 	GWL_SPA = 4,
 	GWL_CN = 5,
-	GWL_TW = 6,
 };
 
 /* content local enum */

@@ -64,8 +64,6 @@ const std::string& ArcdpsExtension::Localization::ToLangCode(gwlanguage lang) {
 			return Lang::Spanish;
 		case GWL_CN:
 			return Lang::Chinese;
-		case GWL_TW:
-			return Lang::TChinese;
 		default:
 			return Lang::English;
 	}
