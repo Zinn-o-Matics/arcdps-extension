@@ -8,5 +8,6 @@ var Localization_8h =
     [ "English", "Localization_8h.html#a008a454e2898d35c290df6510123ec4f", null ],
     [ "French", "Localization_8h.html#acbec0e85a62c97d63e24f3bab2542a52", null ],
     [ "German", "Localization_8h.html#a28a26a31cc8208908037a4913455535e", null ],
-    [ "Spanish", "Localization_8h.html#ac1dc745d668a9ae4e6784287a5e2c7bd", null ]
+    [ "Spanish", "Localization_8h.html#ac1dc745d668a9ae4e6784287a5e2c7bd", null ],
+    [ "TChinese", "Localization_8h.html#a7ce25ad0d830b982ddc578ebcfd1ea5f", null ]
 ];

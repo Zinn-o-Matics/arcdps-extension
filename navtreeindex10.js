@@ -1,5 +1,7 @@
 var NAVTREEINDEX10 =
 {
+"map_8h.html#a917c1b29cc776bfc83835c67d2d984a3":[5,0,26,402],
+"map_8h.html#a919a5e7c57702afbbc5c85eabbcb2ef2":[5,0,26,114],
 "map_8h.html#a919d15b261ee7cb2766f8c14dd5145cf":[5,0,26,210],
 "map_8h.html#a9298a7f771a539038de2ed46eb901efd":[5,0,26,350],
 "map_8h.html#a92b9eee4abff5e727c713a96a969be0f":[5,0,26,338],
@@ -204,12 +206,13 @@ var NAVTREEINDEX10 =
 "md_Readme.html#autotoc_md8":[1,0,1,2],
 "md_Readme.html#autotoc_md9":[1,0,1,3],
 "namespaceArcdpsExtension.html":[2,0,0],
-"namespaceArcdpsExtension.html#a0556e6baca08721dede6d25324c41229":[2,0,0,48],
+"namespaceArcdpsExtension.html#a0556e6baca08721dede6d25324c41229":[2,0,0,49],
+"namespaceArcdpsExtension.html#a07bcc1224a2e4f7fe567749c35e15200":[2,0,0,47],
 "namespaceArcdpsExtension.html#a33e1145df7f28bc795dd4d6a96cc44c7":[2,0,0,41],
-"namespaceArcdpsExtension.html#a3ecff187e5aab7c7921057b9992a15a6":[2,0,0,47],
+"namespaceArcdpsExtension.html#a3ecff187e5aab7c7921057b9992a15a6":[2,0,0,48],
 "namespaceArcdpsExtension.html#a4229a80a5f0ce50da50421d40faee0d0":[2,0,0,44],
 "namespaceArcdpsExtension.html#a45a042fe079b2e6dc48c1242382563a5":[2,0,0,46],
-"namespaceArcdpsExtension.html#a497ba56148dd975f51448c27a974e871":[2,0,0,51],
+"namespaceArcdpsExtension.html#a497ba56148dd975f51448c27a974e871":[2,0,0,52],
 "namespaceArcdpsExtension.html#a4bc31a9830f78772c99b385e76ddc5bd":[2,0,0,43],
 "namespaceArcdpsExtension.html#a65eef77cfe403da1e2d2207dab27c92c":[2,0,0,37],
 "namespaceArcdpsExtension.html#a65eef77cfe403da1e2d2207dab27c92ca27b89a1af241baa909c296de8be20958":[2,0,0,37,0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX10 =
 "namespaceArcdpsExtension.html#a6998431fecc1df50998647659d658933a89583d81fffff2816c2b95cd0baa3c67":[2,0,0,36,24],
 "namespaceArcdpsExtension.html#a6998431fecc1df50998647659d658933a925b9d0bd510ef048a00f5eefd06b378":[2,0,0,36,2],
 "namespaceArcdpsExtension.html#a6998431fecc1df50998647659d658933a93b3e1cc7f7aadc15d4d2a2f602fa255":[2,0,0,36,25],
-"namespaceArcdpsExtension.html#a6998431fecc1df50998647659d658933a96247f59d55b276077673c10d1281bfa":[2,0,0,36,28],
-"namespaceArcdpsExtension.html#a6998431fecc1df50998647659d658933a99608036d98095301e327a9ff1efbf4b":[2,0,0,36,26],
-"namespaceArcdpsExtension.html#a6998431fecc1df50998647659d658933aa3fe0362b63b3232d762a3fbf304531d":[2,0,0,36,19],
-"namespaceArcdpsExtension.html#a6998431fecc1df50998647659d658933aa63df8691511baac4bb5a09688cdcd34":[2,0,0,36,38]
+"namespaceArcdpsExtension.html#a6998431fecc1df50998647659d658933a96247f59d55b276077673c10d1281bfa":[2,0,0,36,28]
 };

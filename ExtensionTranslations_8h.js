@@ -56,5 +56,6 @@ var ExtensionTranslations_8h =
     [ "EXTENSION_TRANSLATION_ENGLISH", "ExtensionTranslations_8h.html#a4bc31a9830f78772c99b385e76ddc5bd", null ],
     [ "EXTENSION_TRANSLATION_FRENCH", "ExtensionTranslations_8h.html#a4229a80a5f0ce50da50421d40faee0d0", null ],
     [ "EXTENSION_TRANSLATION_GERMAN", "ExtensionTranslations_8h.html#ac1140cf487351d17cbc58383ab30f588", null ],
-    [ "EXTENSION_TRANSLATION_SPANISH", "ExtensionTranslations_8h.html#a45a042fe079b2e6dc48c1242382563a5", null ]
+    [ "EXTENSION_TRANSLATION_SPANISH", "ExtensionTranslations_8h.html#a45a042fe079b2e6dc48c1242382563a5", null ],
+    [ "EXTENSION_TRANSLATION_TCHINESE", "ExtensionTranslations_8h.html#a07bcc1224a2e4f7fe567749c35e15200", null ]
 ];

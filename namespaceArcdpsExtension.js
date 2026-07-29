@@ -6,7 +6,8 @@ var namespaceArcdpsExtension =
       [ "English", "namespaceArcdpsExtension_1_1Lang.html#a008a454e2898d35c290df6510123ec4f", null ],
       [ "French", "namespaceArcdpsExtension_1_1Lang.html#acbec0e85a62c97d63e24f3bab2542a52", null ],
       [ "German", "namespaceArcdpsExtension_1_1Lang.html#a28a26a31cc8208908037a4913455535e", null ],
-      [ "Spanish", "namespaceArcdpsExtension_1_1Lang.html#ac1dc745d668a9ae4e6784287a5e2c7bd", null ]
+      [ "Spanish", "namespaceArcdpsExtension_1_1Lang.html#ac1dc745d668a9ae4e6784287a5e2c7bd", null ],
+      [ "TChinese", "namespaceArcdpsExtension_1_1Lang.html#a7ce25ad0d830b982ddc578ebcfd1ea5f", null ]
     ] ],
     [ "UETranslationsCustomize", "namespaceArcdpsExtension_1_1UETranslationsCustomize.html", "namespaceArcdpsExtension_1_1UETranslationsCustomize" ],
     [ "BaseSingleton", "classArcdpsExtension_1_1BaseSingleton.html", "classArcdpsExtension_1_1BaseSingleton" ],
@@ -389,6 +390,7 @@ var namespaceArcdpsExtension =
     [ "EXTENSION_TRANSLATION_FRENCH", "namespaceArcdpsExtension.html#a4229a80a5f0ce50da50421d40faee0d0", null ],
     [ "EXTENSION_TRANSLATION_GERMAN", "namespaceArcdpsExtension.html#ac1140cf487351d17cbc58383ab30f588", null ],
     [ "EXTENSION_TRANSLATION_SPANISH", "namespaceArcdpsExtension.html#a45a042fe079b2e6dc48c1242382563a5", null ],
+    [ "EXTENSION_TRANSLATION_TCHINESE", "namespaceArcdpsExtension.html#a07bcc1224a2e4f7fe567749c35e15200", null ],
     [ "g_singletonManagerInstance", "namespaceArcdpsExtension.html#a3ecff187e5aab7c7921057b9992a15a6", null ],
     [ "UE_TRANSLATIONS_ENGLISH", "namespaceArcdpsExtension.html#a0556e6baca08721dede6d25324c41229", null ],
     [ "UE_TRANSLATIONS_FRENCH", "namespaceArcdpsExtension.html#a9f8c0560c70abd3ebdad77ea34c72451", null ],
