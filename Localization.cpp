@@ -33,6 +33,8 @@ void ArcdpsExtension::Localization::Load(const std::string& pLang) {
 		Load(pLang, EXTENSION_TRANSLATION_SPANISH);
 	} else if (pLang == Lang::Chinese) {
 		Load(pLang, EXTENSION_TRANSLATION_CHINESE);
+	} else if (pLang == Lang::TChinese) {
+		Load(pLang, EXTENSION_TRANSLATION_TCHINESE);
 	}
 }
 

@@ -26,6 +26,7 @@ namespace ArcdpsExtension {
 		inline std::string German = "de";
 		inline std::string Spanish = "es";
 		inline std::string Chinese = "zh-cn";
+		inline std::string TChinese = "zh-tw";
 	} // namespace Lang
 
 	namespace details {

@@ -19,6 +19,7 @@ protected:
 		localization.Load(Lang::French);
 		localization.Load(Lang::Spanish);
 		localization.Load(Lang::Chinese);
+		localization.Load(Lang::TChinese);
 
 		::testing::Test::SetUp();
 	}
@@ -42,6 +43,8 @@ TEST_F(LocalizationTests, BaseTranslations) {
 	ASSERT_EQ(localization.Translate(ET_Left), "Izquierda");
 	localization.ChangeLanguage(Lang::Chinese);
 	ASSERT_EQ(localization.Translate(ET_Left), "居左");
+	localization.ChangeLanguage(Lang::TChinese);
+	ASSERT_EQ(localization.Translate(ET_Left), "靠左");
 }
 
 TEST_F(LocalizationTests, BaseTranslationsLang) {
@@ -52,6 +55,7 @@ TEST_F(LocalizationTests, BaseTranslationsLang) {
 	ASSERT_EQ(localization.Translate(Lang::French, ET_Left), "Gauche");
 	ASSERT_EQ(localization.Translate(Lang::Spanish, ET_Left), "Izquierda");
 	ASSERT_EQ(localization.Translate(Lang::Chinese, ET_Left), "居左");
+	ASSERT_EQ(localization.Translate(Lang::TChinese, ET_Left), "靠左");
 }
 
 TEST_F(LocalizationTests, BaseTranslationsSpecialChars) {
@@ -65,6 +69,8 @@ TEST_F(LocalizationTests, BaseTranslationsSpecialChars) {
 	ASSERT_EQ(localization.Translate(ET_UpdateInProgress), "Actualización automática en curso");
 	localization.ChangeLanguage(Lang::Chinese);
 	ASSERT_EQ(localization.Translate(ET_SizingPolicySizeContentToWindow), "根据窗口大小调整内容大小");
+	localization.ChangeLanguage(Lang::TChinese);
+	ASSERT_EQ(localization.Translate(ET_SizingPolicySizeContentToWindow), "調整內容到視窗的大小");
 }
 
 TEST_F(LocalizationTests, OverrideTranslation) {
